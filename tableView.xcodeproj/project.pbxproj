@@ -15,6 +15,7 @@
 		337438741D087018004F724A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337438721D087018004F724A /* LaunchScreen.storyboard */; };
 		3374387F1D087018004F724A /* tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3374387E1D087018004F724A /* tableViewTests.m */; };
 		3374388A1D087018004F724A /* tableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337438891D087018004F724A /* tableViewUITests.m */; };
+		3374389C1D087C35004F724A /* tableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3374389B1D087C35004F724A /* tableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		337438851D087018004F724A /* tableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		337438891D087018004F724A /* tableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableViewUITests.m; sourceTree = "<group>"; };
 		3374388B1D087018004F724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3374389A1D087C35004F724A /* tableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableCell.h; sourceTree = "<group>"; };
+		3374389B1D087C35004F724A /* tableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				337438681D087018004F724A /* AppDelegate.m */,
 				3374386A1D087018004F724A /* ViewController.h */,
 				3374386B1D087018004F724A /* ViewController.m */,
+				3374389A1D087C35004F724A /* tableCell.h */,
+				3374389B1D087C35004F724A /* tableCell.m */,
 				3374386D1D087018004F724A /* Main.storyboard */,
 				337438701D087018004F724A /* Assets.xcassets */,
 				337438721D087018004F724A /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				3374386C1D087018004F724A /* ViewController.m in Sources */,
 				337438691D087018004F724A /* AppDelegate.m in Sources */,
+				3374389C1D087C35004F724A /* tableCell.m in Sources */,
 				337438661D087018004F724A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
